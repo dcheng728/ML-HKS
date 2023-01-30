@@ -11,5 +11,3 @@ Subgoals:
 1. Try to learn pytorch geometric
 2. Think about how to address premutation
 3. Write graph neural networks with pytroch geometric
-
-test change
