@@ -1,6 +1,7 @@
 # project_triangle
 
 Goal Pipeline:
+test
 
 1. Generate a graph (as laplacian matrix)
 2. Put the graph through a graph neural network
