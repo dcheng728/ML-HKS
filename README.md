@@ -1,14 +1,22 @@
-# project_triangle
+# Mesh Learning
 
-Goal Pipeline:
-test
+This repository includes the code to adversarially train a contrastive neural network on 3D meshes. The performance of the contrastive neural neural network is benchmarked by comparing its clustering results to a classifier based on heat kernel signature. 
 
-1. Generate a graph (as laplacian matrix)
-2. Put the graph through a graph neural network
-3. Try to predict the heat kernel signature or eigenvalues (pretty similar things)
+The following is the file structure of the code:
 
-Subgoals:
-
-1. Try to learn pytorch geometric
-2. Think about how to address premutation
-3. Write graph neural networks with pytroch geometric
+```bash
+├── SHREC11_plus
+|   (a directory to hold the dataset with noise)
+├── ContraNN+atkNN.ipynb
+├── Transformation_Experiment.ipynb
+├── Classifier.ipynb
+├── weights
+|   (saved weights from training)
+├── helpers
+|   (various helper methods)
+│   ├── preproc.ipynb
+│   ├── NNs.ipynb
+│   ├── misc.ipynb
+│   ├── compare.ipynb
+└── .gitignore
+```
