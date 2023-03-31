@@ -20,3 +20,5 @@ The following is the file structure of the code:
 │   ├── compare.ipynb
 └── .gitignore
 ```
+
+Davidson: the file structure above is just a draft of what the final directory can look like.
